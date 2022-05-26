@@ -4,6 +4,6 @@
 
 ---
 
-[Monster Sample Link](https://www.example.com)
+[Monster Sample Link](https://monster-rolodex-kappa.vercel.app/)
 
 !["monster sample image"](img/monster.png)
