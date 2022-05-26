@@ -1,0 +1,24 @@
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 80vw;
+  margin: 0 auto;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #f5f5f5 0%, #bdb3b3 100%);
+  border-radius: 5px;
+  padding: 1rem;
+  color: rgba(110, 101, 101, 0.858);
+
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.card-item:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
